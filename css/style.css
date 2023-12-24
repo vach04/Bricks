@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: flex-end;
+	gap: 10px;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.red, .blue, .white{
+	height: 100px;
+	width: 100px;
+}
+
+.red{
+	background: red;
+}
+
+.white{
+	border: 1px solid black;
+}
+
+.blue{
+	background: blue;
+}
